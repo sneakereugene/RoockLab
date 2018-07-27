@@ -1,0 +1,105 @@
+// block-4
+
+.block4{
+  margin-top: 50px;
+  p{
+    font-size: 14px;
+    color:#333333;
+  }
+}
+
+// block-5
+
+.block5{
+  .block5_techno{
+    width: 75%;
+    margin-left: 25%;
+    div{
+      position: relative;
+      .techno-item{
+        p{
+          text-align: center;
+          font-size: 14px;
+          color:#333333;
+        }
+      }
+      margin: 20px 0 20px 0;
+    }
+  }
+}
+
+// block6
+
+.block6{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .row{
+  width: 100%;
+    div{
+      padding: 0;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+// footer
+
+footer{
+  background: radial-gradient( ellipse at top left, rgba(252, 253, 252, 0.7), rgba(252, 253, 252, 0.7)), url('..//img/comp.jpg');
+  height: 290px;
+  width: 100%;
+  background-position: center;
+  text-transform: uppercase;
+  .footer-call{
+    padding-top: 60px;
+    h4{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color:#333333;
+    }
+    .button{
+      button{
+        background-color:#b71319;
+        color: #fff;
+        border: none;
+        text-transform: uppercase;
+        width:180px;
+        height: 40px;
+      }
+      margin: 0 auto;
+      width:180px;
+      height: 40px;
+    }
+    p{
+      margin-top: 55px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color:#333333;
+      font-weight: bold;
+    }
+    .social{
+      width: 94px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+}
+.footer-line{
+  width: 100%;
+  height: 40px;
+  background-color: #333333;
+  p{
+    width: 100%;
+    text-align: center;
+    color: #717171;
+    font-size: 14px;
+  }
+}
